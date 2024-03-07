@@ -1,0 +1,26 @@
+{
+   "name": "robotics-website",
+   "version": "0.1.0",
+   "description": "The new website for Broadneck Robotics",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hnasheralneam/robotics-website.git"
+   },
+   "keywords": [
+      "robotics",
+      "website",
+      "broadneck"
+   ],
+   "author": "Hamza Nasher-Alneam",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/hnasheralneam/robotics-website/issues"
+   },
+   "homepage": "https://github.com/hnasheralneam/robotics-website#readme"
+}

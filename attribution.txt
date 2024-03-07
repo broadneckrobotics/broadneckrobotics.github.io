@@ -1,0 +1,6 @@
+Carousel adapted from Davey Hert here:
+https://codepen.io/daveyhert/pen/MWrYjZy
+
+
+Background steel image stolen from here:
+https://www.turbosquid.com/FullPreview/524319

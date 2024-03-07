@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofia&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   color: #800000;
+   text-shadow: 0 0 .3em #fff;
+}
+
+html {
+   height: 100%;
+   width: 100%;
+   /* Sources cited: https://www.turbosquid.com/FullPreview/524319 */
+   background-image: url("https://static.turbosquid.com/Preview/2014/08/01__18_43_57/Grate_02_Layered_R_preview1.jpgf0e0e898-c1ff-4ac9-bb53-3ff54a56e4b8Larger.jpg");
+   background-size: 10em;
+}
+
+h2 {
+   text-shadow: 0 0 .3em #fff;
+   font-size: 3em;
+}
+
+
+/* Landing */
+.landing {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+
+   width: 100vw;
+   text-align: center;
+   text-transform: uppercase;
+   overflow: auto;
+   white-space: nowrap;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.landing .slides {
+   
+   display: grid;
+   place-items: center;
+
+}
+
+.landing .card {
+   margin: auto;
+   overflow: hidden;
+   border-radius: .2em;
+   box-shadow: 0 .2em 2em #000;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Permanent Marker", cursive;
+   background-color: red;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 100%;
+   max-width: 60vw;
+   height: 60vh;
+   position: absolute;
+   transition: all 0.5s;
+   border-radius: .3em;
+   overflow: hidden;
+}
+
+.landing .card-1 {
+   background-image: url("images/2023-2024/Team Photos/outside.JPG");
+}
+
+.landing .card-2 {
+   background-image: url("https://broadneck.org/ourpages/auto/2018/5/14/46610192/6.jpg?rnd=1526320606268");
+}
+
+.landing .card-3 {
+   background-image: url("https://broadneck.org/ourpages/auto/2018/5/14/46610192/6.jpg?rnd=1526320606268");
+}
+.landing .card-4 {
+   background-image: url("https://broadneck.org/ourpages/auto/2018/5/14/46610192/5.jpg?rnd=1526320602548");
+}
+
+.landing h1 {
+   font-size: 8em;
+   line-height: 1em;
+}
+
+
+
+
+
+/* Carousel */
+
+.carousel {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+ }
+ 
+ .slider {
+   width: 100%;
+   max-width: 800px;
+   height: 350px;
+   position: relative;
+ }
+ 
+ .slide {
+   width: 100%;
+   max-width: 800px;
+   height: 350px;
+   position: absolute;
+   transition: all 0.5s;
+   border-radius: 3em;
+   overflow: hidden;
+ }
+ 
+ .slide img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .current-slide {
+   transform: scale(1.1);
+   z-index: 1;
+ }
+ 
+ .btn {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+   border: none;
+   border-radius: 50%;
+   z-index: 10px;
+   cursor: pointer;
+   background-color: #fff;
+   font-size: 18px;
+   z-index: 2;
+ }
+ .btn:active {
+   transform: scale(1.1);
+ }
+ .btn-prev {
+   top: 45%;
+   left: 2%;
+ }
+ 
+ .btn-next {
+   top: 45%;
+   right: 2%;
+ }
+ 
