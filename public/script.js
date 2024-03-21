@@ -1,6 +1,5 @@
 console.log("js connected");
 
-newCarousel("carousel");
 newCarousel("landing-carousel");
 
 function newCarousel(carouselId) {

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
 * {
    padding: 0;
@@ -53,7 +54,7 @@ h2 {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   font-family: "Permanent Marker", cursive;
+   font-family: "Graduate", serif;
    background-color: red;
    display: inline-flex;
    justify-content: center;
