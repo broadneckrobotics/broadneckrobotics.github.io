@@ -5,9 +5,24 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
    <title>Broadbeck Robotics Club</title>
-   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="styles/style.css" rel="stylesheet" type="text/css">
+   <link href="styles/tailwind.css" rel="stylesheet" type="text/css">
 </head>
-
+<header>
+   <img class="nav-logo" src="../images/logo.png" alt="Broadneck Robotics Logo">
+   <div>
+      <span class="nav-title">Broadneck Robotics - Building the Incredible</span>
+      <br>
+      <nav>
+         <ul>
+            <li><a href="about.html">Teams</a></li>|
+            <li><a href="contact.html">Events</a></li>|
+            <li><a href="projects.html">Photos</a></li>|
+            <li><a href="resources.html">About</a></li>
+         </ul>
+      </nav>
+   </div>
+</header>
 <body>
    <div class="landing" id="landing-carousel">
       <div class="slides">
@@ -25,27 +40,54 @@
          </div>
          <div class="carousel-slide card card-3">
             <div>
-               <h2>Do you know</h2>
-               <h1>These people</h1>
+               <h2>Building the</h2>
+               <h1>Incredible</h1>
             </div>
          </div>
          <div class="carousel-slide card card-4">
             <div>
-               <h2>It's a</h2>
-               <h1>Robot</h1>
+               <h2>Making cool</h2>
+               <h1>Robots</h1>
             </div>
          </div>
       </div>
 
       <button class="btn btn-next"> > </button>
-      <button class="btn btn-prev">
-         < </button>
+      <button class="btn btn-prev"> < </button>
 
    </div>
-
-   <br><br>
-   <a href="attribution.txt">attribution</a>
+   <br><br><br>
+   <!-- What we do -->
+   <div class="about my-2 mx-8 grid gap-4">
+      <div class="px-6 bg-gray-800 bg-opacity-30">
+         <h1 class="about-title my-4 text-left">What we do</h1>
+         <p class="about-info text-left">We're a club of engineers, desginers, and developers, passionate about building and competing in the engineering
+            field.</p>
+         <br>
+      </div>
+      <div class="inline-block bg-neutral-400 rounded-md text-lg text-center">
+         <h1 class="my-4 text-maroon text-4xl">Upcoming events</h1>
+         <ul>
+            <li class="bg-neutral-300 py-2 px-4 shadow-inner shadow-md text-neutral-700">
+               <p class="text-xl">Interest meeting</p>
+               <i class="text-neutral-500">Mr. Olsen's room maroon block - April 18 2024</i>
+            </li>
+         </ul>
+      </div>
+   </div>
 </body>
-<script src="script.js"></script>
+<br>
+<footer class="static w-screen px-0 py-1 z-10 bg-neutral-400">
+   <div class="-z-10 -left-40 w-[140%] h-full caution-tape bg-red-400"></div>
+   <div>
+      <h1>Broadneck Robotics Club</h1>
+      <p>broadneckrobotics@gmail.com</p>
+      <p>Advisor: Mr. Chris Olsen</p>
+      <p>Current website built by <a class="underline" href="https://github.com/hnasheralneam">Hamza</a> with Joah</p>
+      <a href="attribution.txt">attribution</a>
+      <p>Text</p>
+   </div>
+</footer>
+<script src="scripts/script.js"></script>
 
 </html>

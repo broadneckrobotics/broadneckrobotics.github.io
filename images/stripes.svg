@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Stripes.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="23.967692"
+     inkscape:cx="5.9455036"
+     inkscape:cy="2.1278645"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#27272a;fill-opacity:1;stroke-width:0.648656;paint-order:stroke markers fill"
+       d="M 0,0 H 4.053 L 0,4.053 Z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect2"
+       style="fill:#27272a;fill-opacity:1;stroke-width:0.648656;paint-order:stroke markers fill"
+       d="M 16,11.947 V 16 h -4.053 z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect3"
+       style="fill:#27272a;fill-opacity:1;stroke-width:0.438812;paint-order:stroke markers fill"
+       d="M 11.947,0 H 16 V 4.053 L 4.053,16 H 0 v -4.053 z"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

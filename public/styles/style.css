@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   color: #800000;
+}
+
+html {
+   height: 100%;
+   width: 100%;
+   /* Sources cited: https://www.turbosquid.com/FullPreview/524319 */
+   background-image: url("../../images/bg-img.jpg");
+   background-size: 14em;
+   padding-top: 18em;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #757575;
+   color: #fff;
+   text-align: center;
+   padding: .5em;
+   z-index: 100;
+}
+
+.nav-logo {
+   height: 90px;
+   margin: 0 20px;
+}
+
+.nav-title {
+   /* padding-left: 10px; */
+   font-family: "Graduate", serif;
+   font-size: 50px;
+   letter-spacing: -.05em;
+   margin-top: 10px;
+}
+
+header {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+header * {
+   display: inline-block;
+}
+
+h2 {
+   font-size: 3em;
+}
+
+.slides {
+   text-shadow: .2em .2em #510000,
+      .1em .1em #510000;
+}
+
+.slides h1 {
+   letter-spacing: -.06em;
+}
+
+
+/* Landing */
+.landing {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+
+   width: 100vw;
+   text-align: center;
+   text-transform: uppercase;
+   overflow: auto;
+   white-space: nowrap;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.landing .slides {
+
+   display: grid;
+   place-items: center;
+
+}
+
+.landing .card {
+   margin: auto;
+   overflow: hidden;
+   border-radius: .2em;
+   box-shadow: 0 .2em 2em #000;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Graduate", serif;
+   background-color: red;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+
+   aspect-ratio: 3 / 2;
+   /* width: 100%;
+   max-width: 60vw; */
+   height: 75vh;
+   position: absolute;
+   transition: all 0.5s;
+   border-radius: .3em;
+   overflow: hidden;
+}
+
+.landing .card-1 {
+   background-image: url("../../images/2023-2024/Team Photos/censored.jpg");
+}
+
+.landing .card-2 {
+   background-image: url("../../images/2023-2024/broadneck-library.jpg");
+}
+
+.landing .card-3 {
+   background-image: url("../../images/2023-2024/working.jpg");
+}
+
+.landing .card-4 {
+   background-image: url("https://broadneck.org/ourpages/auto/2018/5/14/46610192/5.jpg?rnd=1526320602548");
+}
+
+.landing h1 {
+   font-size: 8em;
+   line-height: 1em;
+}
+
+
+
+
+
+/* Carousel */
+
+.carousel {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+.slider {
+   width: 100%;
+   max-width: 800px;
+   height: 350px;
+   position: relative;
+}
+
+.slide {
+   width: 100%;
+   max-width: 800px;
+   height: 350px;
+   position: absolute;
+   transition: all 0.5s;
+   border-radius: 3em;
+   overflow: hidden;
+}
+
+.slide img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.current-slide {
+   transform: scale(1.1);
+   z-index: 1;
+}
+
+.btn {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+   border: none;
+   border-radius: 50%;
+   z-index: 10px;
+   cursor: pointer;
+   background-color: #fff;
+   font-size: 18px;
+   z-index: 2;
+}
+
+.btn:active {
+   transform: scale(1.1);
+}
+
+.btn-prev {
+   top: 45%;
+   left: 2%;
+}
+
+.btn-next {
+   top: 45%;
+   right: 2%;
+}
+
+.about-title {
+   font-family: "Graduate", serif;
+   font-size: 4.5em;
+   text-align: center;
+   color: white;
+}
+
+.about-info {
+   font-family: "Graduate", serif;
+   font-size: 3em;
+   text-align: center;
+   color: #eee;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: #000;
+   color: #fff;
+   text-align: center;
+   padding: 1em;
+}
+
+.about {
+   grid-template-columns: auto auto;
+   font-family: "Graduate";
+}
+
+
+@keyframes slide_right {
+   0% {
+      transform: translate(0);
+   }
+
+   100% {
+      transform: translate(3em);
+   }
+}
+
+.caution-tape {
+   background-image: url("../../images/stripes.svg") repeat;
+   background-size: 3em 3em;
+   animation: slide_right 10s linear infinite;
+}
