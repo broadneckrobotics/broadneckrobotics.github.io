@@ -12,7 +12,7 @@ html {
    height: 100%;
    width: 100%;
    /* Sources cited: https://www.turbosquid.com/FullPreview/524319 */
-   background-image: url("../../images/bg-img.jpg");
+   background-image: url("../images/bg-img.jpg");
    background-size: 14em;
    padding-top: 18em;
 }
@@ -112,15 +112,15 @@ h2 {
 }
 
 .landing .card-1 {
-   background-image: url("../../images/2023-2024/Team Photos/censored.jpg");
+   background-image: url("../images/2023-2024/Team Photos/censored.jpg");
 }
 
 .landing .card-2 {
-   background-image: url("../../images/2023-2024/broadneck-library.jpg");
+   background-image: url("../images/2023-2024/broadneck-library.jpg");
 }
 
 .landing .card-3 {
-   background-image: url("../../images/2023-2024/working.jpg");
+   background-image: url("../images/2023-2024/working.jpg");
 }
 
 .landing .card-4 {
@@ -241,7 +241,7 @@ footer {
 }
 
 .caution-tape {
-   background-image: url("../../images/stripes.svg") repeat;
+   background-image: url("../images/stripes.svg") repeat;
    background-size: 3em 3em;
    animation: slide_right 10s linear infinite;
 }
