@@ -4,15 +4,15 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
-   <title>Broadbeck Robotics Club</title>
+   <title>Broadbeck Robotics - Building the Incredible</title>
    <link href="styles/style.css" rel="stylesheet" type="text/css">
    <link href="styles/tailwind.css" rel="stylesheet" type="text/css">
 </head>
-<header>
+<header class="px-8 gap-4">
    <img class="nav-logo" src="images/logo.png" alt="Broadneck Robotics Logo">
-   <div>
-      <span class="nav-title">Broadneck Robotics - Building the Incredible</span>
-      <br>
+   <div class="py-2">
+      <span class="nav-title">Broadneck Robotics</span>
+      <br class="my-2">
       <nav>
          <ul>
             <li><a href="about.html">Teams</a></li>|
@@ -23,6 +23,7 @@
       </nav>
    </div>
 </header>
+
 <body>
    <div class="landing" id="landing-carousel">
       <div class="slides">
@@ -52,16 +53,21 @@
          </div>
       </div>
 
-      <button class="btn btn-next"> > </button>
-      <button class="btn btn-prev"> < </button>
+      <button class="btn btn-next leading-none">
+         <img src="images/arrow-right.svg" alt="arrow pointing to the right">
+      </button>
+      <button class="btn btn-prev leading-none">
+         <img src="images/arrow-left.svg" alt="arrow pointing to the left">
+      </button>
 
    </div>
    <br><br><br>
    <!-- What we do -->
    <div class="about my-2 mx-8 grid gap-4">
-      <div class="px-6 bg-gray-800 bg-opacity-30">
+      <div class="px-6 bg-neutral-800 bg-opacity-30 what-we-do rounded-md">
          <h1 class="about-title my-4 text-left">What we do</h1>
-         <p class="about-info text-left">We're a club of engineers, desginers, and developers, passionate about building and competing in the engineering
+         <p class="about-info text-left">We're a club of engineers, desginers, and developers, passionate about building
+            and competing in the engineering
             field.</p>
          <br>
       </div>
@@ -75,17 +81,66 @@
          </ul>
       </div>
    </div>
+   <br>
+   <!-- Highlights -->
+   <div class="about my-2 mx-8">
+      <div class="px-6 border-4 border-yellow-500 rounded-md">
+         <h1 class="about-title my-4 text-left underline text-yellow-500 shadow-lg" style="text-decoration-style: wavy; text-shadow: .03em .03em #BA7B04;">Highlights</h1>
+         <p class="about-info text-left">tilted, bolted images on carousel</p>
+         <br>
+      </div>
+   </div>
+   <br>
+   <!-- Our teams -->
+   <div class="about my-2 mx-8">
+      <div class="px-6 border-4 border-yellow-500 rounded-md">
+         <h1 class="about-title my-4 text-left underline text-yellow-500 shadow-lg"
+            style="text-decoration-style: wavy; text-shadow: .03em .03em #BA7B04;">Our teams</h1>
+         <p class="about-info text-left">tilted, bolted images on carousel</p>
+         <br>
+      </div>
+   </div>
+   <br>
+   <!-- Sign up to newsletter -->
+   <div class="about my-2 mx-8">
+      <div class="px-6 border-4 border-yellow-500 rounded-md">
+         <h1 class="about-title my-4 text-left underline text-yellow-500 shadow-lg"
+            style="text-decoration-style: wavy; text-shadow: .03em .03em #BA7B04;">Stay in touch!</h1>
+         <p class="about-info text-left">Get the newsletter</p>
+         <br>
+         <form>
+         <input type="email" placeholder="your@email.com">
+            <input type="submit" value="Submit">
+         </form>
+      </div>
+   </div>
+
+
+   <div class="back-to-top" onclick="window.scrollTo(0, 0);">⚜</div>
 </body>
 <br>
-<footer class="static w-screen px-0 py-1 z-10 bg-neutral-400">
-   <div class="-z-10 -left-40 w-[140%] h-full caution-tape bg-red-400"></div>
-   <div>
-      <h1>Broadneck Robotics Club</h1>
-      <p>broadneckrobotics@gmail.com</p>
-      <p>Advisor: Mr. Chris Olsen</p>
-      <p>Current website built by <a class="underline" href="https://github.com/hnasheralneam">Hamza</a> with Joah</p>
-      <a href="attribution.txt">attribution</a>
-      <p>Text</p>
+<footer class="static w-screen p-0 z-10 h-[40vh] text-left border-b-[1em] border-black bg-transparent">
+   <!-- Construction tape: <div class="absolute -z-10 w-[140%] h-[40vh] caution-tape bg-yellow-500"></div> -->
+   <div class="absolute -z-10 w-[140%] h-[40vh] caution-tape bg-[#510000]"></div>
+   <div class="px-4 py-2 footer-grid">
+      <div>
+         <h1 class="text-5xl footer-text">Broadneck Robotics Club</h1>
+         <p class="text-2xl footer-text">broadneckrobotics@gmail.com</p>
+         <br>
+         <p class="footer-text">Current website built by <a class="underline" href="https://github.com/hnasheralneam">Hamza</a>
+            with Joah</p>
+         <p class="footer-text">Last edit - April 21 2024</p>
+         <br>
+         <a class="underline footer-text" href="attribution.txt">attribution</a>
+         <p class="footer-text"><a href="https://broadneck.org/m/pages/index.jsp?uREC_ID=365561&type=d" class="underline">Offical
+               site</a></p>
+      </div>
+      <div class="text-right" dir="rtl">
+         <img class="rounded-xl" src="images/mr-olsen.jpg" alt="Mr. Olsen, robotics advisor">
+         <h2 class="text-xl footer-text">Mr. Chris Olsen</h2>
+         <p class="footer-text">Robotics advisor & Tech Ed teacher</p>
+         <a class="underline footer-text" href="mailto:colsen@aacps.org">colsen@aacps.org</a>
+      </div>
    </div>
 </footer>
 <script src="scripts/script.js"></script>

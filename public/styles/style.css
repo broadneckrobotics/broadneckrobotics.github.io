@@ -8,13 +8,18 @@
    color: #800000;
 }
 
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
+
 html {
    height: 100%;
    width: 100%;
    /* Sources cited: https://www.turbosquid.com/FullPreview/524319 */
    background-image: url("../images/bg-img.jpg");
    background-size: 14em;
-   padding-top: 18em;
+   padding-top: 8vh;
 }
 
 header {
@@ -23,14 +28,14 @@ header {
    width: 100%;
    background-color: #757575;
    color: #fff;
-   text-align: center;
-   padding: .5em;
    z-index: 100;
+   line-height: 1em;
+   display: grid;
+   grid-template-columns: 80px auto;
 }
 
 .nav-logo {
-   height: 90px;
-   margin: 0 20px;
+   height: 80px;
 }
 
 .nav-title {
@@ -39,11 +44,6 @@ header {
    font-size: 50px;
    letter-spacing: -.05em;
    margin-top: 10px;
-}
-
-header {
-   display: grid;
-   grid-template-columns: auto auto auto;
 }
 
 header * {
@@ -56,7 +56,8 @@ h2 {
 
 .slides {
    text-shadow: .2em .2em #510000,
-      .1em .1em #510000;
+                .1em .1em #510000,
+                0 0 2em #dddddd99;
 }
 
 .slides h1 {
@@ -96,7 +97,6 @@ h2 {
    background-repeat: no-repeat;
    background-size: cover;
    font-family: "Graduate", serif;
-   background-color: red;
    display: inline-flex;
    justify-content: center;
    align-items: center;
@@ -132,7 +132,15 @@ h2 {
    line-height: 1em;
 }
 
+.landing h2 {
+   font-size: 2.5em;
+   text-shadow: .05em .05em #510000,
+                0 0 .4em #fff;
+}
 
+.what-we-do {
+   backdrop-filter: blur(1px);
+}
 
 
 
@@ -174,20 +182,18 @@ h2 {
 
 .btn {
    position: absolute;
-   width: 40px;
-   height: 40px;
+   width: .4em;
+   height: .4em;
    padding: 10px;
    border: none;
    border-radius: 50%;
    z-index: 10px;
    cursor: pointer;
-   background-color: #fff;
-   font-size: 18px;
+   font-size: 8em;
+   text-shadow: 0 0 5px #fff;
+   filter: invert(80%);
    z-index: 2;
-}
-
-.btn:active {
-   transform: scale(1.1);
+   background-color: #fff;
 }
 
 .btn-prev {
@@ -241,7 +247,57 @@ footer {
 }
 
 .caution-tape {
-   background-image: url("../images/stripes.svg") repeat;
+   margin-left: -10em;
+   background-image: url("../images/stripes.svg");
    background-size: 3em 3em;
    animation: slide_right 10s linear infinite;
+}
+
+.footer-text {
+   text-shadow: 0 0 .1em #000;
+   color: white;
+   font-weight: 900;
+}
+
+
+
+
+
+* {
+   scroll-behavior: smooth;
+}
+
+.back-to-top {
+   box-sizing: border-box;
+   position: fixed;
+   left: 25px;
+   bottom: 25px;
+   height: 60px;
+   width: 60px;
+   padding: 0;
+   padding-bottom: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   border-radius: 50%;
+   background-color: #800000;
+   box-shadow: 0 0 3px #320000;
+   color: #2aafd4;
+   transition: .5s;
+   z-index: 1;
+   opacity: .7;
+}
+
+.back-to-top:hover {
+   opacity: 1;
+   text-shadow: 0 .5px 1px #320000,
+      0 1px 1px #320000,
+      0 1.5px 1px #320000,
+      0 2px 1px #320000;
+}
+
+.footer-grid {
+   display: grid;
+   grid-template-columns: auto auto;
 }

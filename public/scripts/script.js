@@ -1,3 +1,4 @@
+console.log("مرحبا");
 console.log("js connected");
 
 newCarousel("landing-carousel");
@@ -40,7 +41,7 @@ function newCarousel(carouselId) {
 
       slides.forEach((slide, indx) => {
          if (indx === curSlide)
-            slide.style.transform = `translateX(${100 * (indx - curSlide)}%) scale(1.2) rotate(${Math.floor(Math.random() * 15) - 10}deg)`;
+            slide.style.transform = `translateX(${100 * (indx - curSlide)}%) scale(1.2) rotate(${Math.floor(Math.random() * 10) - 5}deg)`;
          else
             slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
       });
