@@ -124,7 +124,7 @@ h2 {
 }
 
 .landing .card-4 {
-   background-image: url("https://broadneck.org/ourpages/auto/2018/5/14/46610192/5.jpg?rnd=1526320602548");
+   background-image: url("../images/2023-2024/joahs-team.jpg");
 }
 
 .landing h1 {
@@ -300,4 +300,16 @@ footer {
 .footer-grid {
    display: grid;
    grid-template-columns: auto auto;
+}
+
+.inner-outer-shadow {
+   box-shadow: inset 0 2px 4px 0 #888,
+               0 2px 4px 0 #888,
+               0 4px 6px -1px #888,
+               0 2px 4px -2px #888;
+}
+
+.social-icon {
+   font-size: 2em;
+   margin: 0 .2em;
 }

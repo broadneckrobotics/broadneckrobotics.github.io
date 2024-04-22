@@ -1,0 +1,20 @@
+body {
+   padding-top: 4vh;
+}
+
+.header {
+    font-family: "Graduate", serif;
+   font-size: 3.5em;
+   text-align: center;
+   color: white;
+}
+
+.mid-text {
+   font-size: 1em;
+   text-align: center;
+   color: white;
+}
+
+.group-photo {
+   width: 80vw;
+}

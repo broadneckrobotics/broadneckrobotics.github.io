@@ -1,0 +1,8 @@
+add highlights
+add teams
+add stay in touch box, and actually accept email
+
+add teams page
+add events page
+add photos page
+add about page

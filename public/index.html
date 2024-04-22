@@ -4,9 +4,14 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
+   <link rel="icon" href="images/logo.png" type="image/x-icon">
    <title>Broadbeck Robotics - Building the Incredible</title>
    <link href="styles/style.css" rel="stylesheet" type="text/css">
    <link href="styles/tailwind.css" rel="stylesheet" type="text/css">
+   <!-- Font Awesome icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header class="px-8 gap-4">
    <img class="nav-logo" src="images/logo.png" alt="Broadneck Robotics Logo">
@@ -15,10 +20,10 @@
       <br class="my-2">
       <nav>
          <ul>
-            <li><a href="about.html">Teams</a></li>|
-            <li><a href="contact.html">Events</a></li>|
-            <li><a href="projects.html">Photos</a></li>|
-            <li><a href="resources.html">About</a></li>
+            <li><a href="pages/teams.html">Teams</a></li>|
+            <li><a href="pages/events.html">Events</a></li>|
+            <li><a href="pages/galley.html">Photos</a></li>|
+            <li><a href="pages/about.html">About</a></li>
          </ul>
       </nav>
    </div>
@@ -29,8 +34,8 @@
       <div class="slides">
          <div class="carousel-slide card card-2">
             <div>
-               <h2>We do things</h2>
-               <h1>Sometimes</h1>
+               <h2>Trying the</h2>
+               <h1>Impossible</h1>
             </div>
          </div>
          <div class="carousel-slide card card-1 current-slide">
@@ -74,7 +79,15 @@
       <div class="inline-block bg-neutral-400 rounded-md text-lg text-center">
          <h1 class="my-4 text-maroon text-4xl">Upcoming events</h1>
          <ul>
-            <li class="bg-neutral-300 py-2 px-4 shadow-inner shadow-md text-neutral-700">
+            <li class="bg-neutral-300 py-2 px-4 inner-outer-shadow text-neutral-700">
+               <p class="text-xl">Boot camp</p>
+               <i class="text-neutral-500">After school until 5:00 - April 22-26 2024</i>
+            </li>
+         </ul>
+         <br><br>
+         <h1 class="my-4 text-maroon text-4xl">Past events</h1>
+         <ul>
+            <li class="bg-neutral-300 py-2 px-4 inner-outer-shadow text-neutral-700">
                <p class="text-xl">Interest meeting</p>
                <i class="text-neutral-500">Mr. Olsen's room maroon block - April 18 2024</i>
             </li>
@@ -102,16 +115,30 @@
    </div>
    <br>
    <!-- Sign up to newsletter -->
-   <div class="about my-2 mx-8">
+   <div class="about my-2 mx-[10vw]">
       <div class="px-6 border-4 border-yellow-500 rounded-md">
          <h1 class="about-title my-4 text-left underline text-yellow-500 shadow-lg"
             style="text-decoration-style: wavy; text-shadow: .03em .03em #BA7B04;">Stay in touch!</h1>
-         <p class="about-info text-left">Get the newsletter</p>
-         <br>
-         <form>
-         <input type="email" placeholder="your@email.com">
-            <input type="submit" value="Submit">
-         </form>
+         <p class="about-info text-left">Follow us on social media</p>
+         <div class="bg-neutral-400 inline-block rounded-full py-2 px-5">
+            <a class="social-icon" href="https://twitter.com/BroadneckRobot1" class="text-2xl" title="X thanks a lot Elon">
+               <i class="fab fa-twitter"></i>
+            </a>
+            <a class="social-icon" href="https://www.instagram.com/broadneckrobotics/" class="text-2xl" title="Instagram">
+               <i class="fab fa-instagram"></i>
+            </a>
+            <a class="social-icon" href="https://www.facebook.com/broadneckrobotics/" class="text-2xl" title="Facebook">
+               <i class="fab fa-facebook"></i>
+            </a>
+         </div>
+         <!-- <div class="py-4 px-12 mb-6 bg-neutral-400 rounded-xl">
+            <p class="about-info text-left">Get the newsletter</p>
+            <br>
+            <form>
+               <input type="email" placeholder="your@email.com">
+               <input type="submit" value="Submit">
+            </form>
+         </div> -->
       </div>
    </div>
 
