@@ -1,5 +1,5 @@
 {
-   "name": "robotics-website",
+   "name": "broadneckrobotics.github.io",
    "version": "0.1.0",
    "description": "The new website for Broadneck Robotics",
    "main": "app.js",
@@ -11,7 +11,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/hnasheralneam/robotics-website.git"
+      "url": "git+https://github.com/broadneckrobotics/broadneckrobotics.github.io.git"
    },
    "keywords": [
       "robotics",
@@ -21,9 +21,9 @@
    "author": "Hamza Nasher-Alneam",
    "license": "MIT",
    "bugs": {
-      "url": "https://github.com/hnasheralneam/robotics-website/issues"
+      "url": "https://github.com/broadneckrobotics/broadneckrobotics/issues"
    },
-   "homepage": "https://github.com/hnasheralneam/robotics-website#readme",
+   "homepage": "https://github.com/broadneckrobotics/broadneckrobotics#readme",
    "dependencies": {
       "express": "^4.19.2",
       "nodemon": "^3.1.0"
